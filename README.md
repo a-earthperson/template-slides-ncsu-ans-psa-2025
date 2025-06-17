@@ -4,6 +4,8 @@ Based on **SimpleDarkBlue Beamer Theme**, modified based on NCSU branding guidel
 
 ## Demo
 
+![Screenshots of title page](./demo/main.png)
+
 ![Screenshots of demos](./demo/demos.png)
 
 ## License
