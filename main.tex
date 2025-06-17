@@ -1,0 +1,81 @@
+% !TeX TS-program = lualatex
+%----------------------------------------------------------------------------------------
+%    PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
+\usetheme{SimpleDarkBlue}
+
+\usepackage{booktabs}  % professionally typeset tables
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb} 
+\usepackage{amsfonts}
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usetikzlibrary{calc,positioning}
+\usepackage{pgfpages}
+% \setbeameroption{show notes on second screen}
+
+\usepackage{textcomp}  % better copyright sign, among other things
+\usepackage{lipsum}    % filler text
+\usepackage{lscape}
+\usepackage{longtable}
+\usepackage{siunitx}
+% Please add the following required packages to your document preamble:
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{xstring}
+\usepackage{relsize}
+\usepackage{hyperref}
+\usepackage{graphicx} % Allows including images
+\usepackage{fontspec}
+%\usepackage{helvet}
+\setsansfont{Open Sans}
+%----------------------------------------------------------------------------------------
+%    TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{Presentation Title}
+
+\author{Author Name}
+
+\institute
+{
+    Author Title\\
+    Institution% Your institution for the title page
+}
+%----------------------------------------------------------------------------------------
+%    PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{frame}
+    \titlepage
+\end{frame}
+
+
+\begin{frame}{Overview}
+    % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+    \tableofcontents
+\end{frame}
+
+
+\input{examples}
+%------------------------------------------------
+
+% \begin{frame}{References}
+%     \footnotesize
+%     \bibliography{reference.bib}
+%     \bibliographystyle{apalike}
+% \end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+    \Huge{\centerline{\textbf{The End}}}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
